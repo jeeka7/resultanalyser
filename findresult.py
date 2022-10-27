@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 D={}
 
@@ -12,3 +13,6 @@ marks3 = st.number_input('Insert marks of 3rd student')
 D[3] = marks3
 
 st.write(D)
+
+df = pd.DataFrame(D)
+st.write(df)
