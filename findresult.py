@@ -6,9 +6,16 @@ st.write(batch_size)
 
 D={}
 
-for i in range(1,batch_size+1):
-    roll = i
-    marks = st.number_input('Insert marks')
-    D[roll] = marks
-    st.write(marks)
+st.write("what is the marks of first student?")
+marks1 = st.number_input('Insert marks')
+D[1] = marks1
+
+st.write("what is the marks of first student?")
+marks2 = st.number_input('Insert marks')
+D[2] = marks2
+
+st.write("what is the marks of first student?")
+marks3 = st.number_input('Insert marks')
+D[3] = marks3
+
 st.write(D)
