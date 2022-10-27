@@ -12,6 +12,7 @@ for i in range(1,batch_size+1):
     st.write(i,student information)
     marks = st.number_input('Insert marks')
     D[roll] = marks
+    st.write(marks)
 st.write(D)
 df=pd.DataFrame(D)
 st.write(df)
