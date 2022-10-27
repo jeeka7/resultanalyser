@@ -2,16 +2,13 @@ import streamlit as st
 
 D={}
 
-st.write("what is the marks of first student?")
-marks1 = st.number_input('Insert marks')
+marks1 = st.number_input('Insert marks of 1st student')
 D[1] = marks1
 
-st.write("what is the marks of first student?")
-marks2 = st.number_input('Insert marks')
+marks2 = st.number_input('Insert marks of 2nd student')
 D[2] = marks2
 
-st.write("what is the marks of first student?")
-marks3 = st.number_input('Insert marks')
+marks3 = st.number_input('Insert marks of 3rd student')
 D[3] = marks3
 
 st.write(D)
