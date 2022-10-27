@@ -1,9 +1,8 @@
 import streamlit as st
-import sys
 import pandas as pd
-batch_size=int(input("how many students are there in your class?"))
-if batch_size >10:
-    sys.exit("Batch size cannot be greater than 10")
+
+batch_size = st.slider('How many students are there?', 0, 10)
+
 st.write(batch_size)
 D={}
 # Add student information
