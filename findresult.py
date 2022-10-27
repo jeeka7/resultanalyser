@@ -1,7 +1,4 @@
 import streamlit as st
-
-st.title("My app is deployed on cloud and is working")
-
 import sys
 import pandas as pd
 batch_size=int(input("how many students are there in your class?"))
