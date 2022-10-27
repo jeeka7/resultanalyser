@@ -1,20 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-D={}
+marksList =[]
 
-total = st.number_input('What is the total marks of the exam?')
+batch_size = st.slider("How many students are ther in your class?",1,10)
 
-marks1 = st.number_input('Insert marks of 1st student')
-D[1] = marks1
+for i in range(batch_size):
+  marksList.append(int(input("Enter marks")))
 
-marks2 = st.number_input('Insert marks of 2nd student')
-D[2] = marks2
-
-marks3 = st.number_input('Insert marks of 3rd student')
-D[3] = marks3
-
-st.write(D)
-
-df=pd.DataFrame(D)
-st.write(df)
+st.write(marksList)
