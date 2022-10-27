@@ -10,6 +10,6 @@ for i in range(1,batch_size+1):
     roll = i
     marks = st.number_input('Insert marks')
     D[roll] = marks
-print(D)
+st.write(D)
 df=pd.DataFrame(D)
-print(df)
+st.write(df)
