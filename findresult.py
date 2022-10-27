@@ -1,9 +1,5 @@
 import streamlit as st
 
-batch_size = st.slider('How many students are there?', 1, 10)
-
-st.write(batch_size)
-
 D={}
 
 st.write("what is the marks of first student?")
