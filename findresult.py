@@ -14,5 +14,5 @@ D[3] = marks3
 
 st.write(D)
 
-df = pd.DataFrame(D)
+df=pd.DataFrame(D)
 st.write(df)
