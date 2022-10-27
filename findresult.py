@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 batch_size = st.slider('How many students are there?', 0, 10)
 
