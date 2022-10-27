@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 batch_size = st.slider('How many students are there?', 1, 10)
 
@@ -13,5 +12,3 @@ for i in range(1,batch_size+1):
     D[roll] = marks
     st.write(marks)
 st.write(D)
-df=pd.DataFrame(D)
-st.write(df)
