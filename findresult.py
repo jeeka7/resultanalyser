@@ -3,6 +3,8 @@ import pandas as pd
 
 D={}
 
+total = st.number_input('What is the total marks of the exam?')
+
 marks1 = st.number_input('Insert marks of 1st student')
 D[1] = marks1
 
